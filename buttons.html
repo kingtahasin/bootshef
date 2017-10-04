@@ -1,0 +1,1885 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="corporate, creative, general, portfolio, photography, blog, e-commerce, shop, product, gallery, retina, responsive">
+    <meta name="author" content="Towhidul-Islam">
+	<title>Bootstrap 4</title>
+	
+	<!-- Favicon icon -->
+	<link rel="icon" type="image/png" href="assets/img/favicon.ico" />
+	
+	<!-- Input:CSS -->
+	<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="assets/css/style.css" />
+	<!-- EndInput -->
+  </head>
+<body>
+	<!-- =============================
+		Header Nav Section Start
+	=============================== -->
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    	<a class="navbar-brand" href="index.html">ThemeShef</a>
+	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header_nav" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="navbar-toggler-icon"></span>
+	    </button>
+
+	    <div class="collapse navbar-collapse" id="header_nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item"><a class="nav-link" href="alerts.html">Alerts</a></li>
+	          <li class="nav-item"><a class="nav-link" href="badges.html">badges</a></li>
+	          <li class="nav-item"><a class="nav-link active" href="buttons.html">Buttons</a></li>
+	          <li class="nav-item"><a class="nav-link" href="cards.html">Cards</a></li>
+	          <li class="nav-item"><a class="nav-link" href="carousel.html">carousel</a></li>
+	          <li class="nav-item"><a class="nav-link" href="forms.html">Forms</a></li>
+	          <li class="nav-item"><a class="nav-link" href="jumboo.html">Jumboo</a></li>
+	          <li class="nav-item"><a class="nav-link" href="list-groups.html">list groups</a></li>
+	          <li class="nav-item"><a class="nav-link" href="modals.html">Modals</a></li>
+	          <li class="nav-item"><a class="nav-link" href="navs.html">Navs</a></li>
+	          <li class="nav-item"><a class="nav-link" href="navbars.html">Navbars</a></li>
+          	  <li class="nav-item"><a class="nav-link" href="scrollspy.html">scrollspy</a></li>
+	          <li class="nav-item"><a class="nav-link" href="toggle.html">toggles</a></li>
+	          <li class="nav-item"><a class="nav-link" href="others.html">others</a></li>
+	          <li class="nav-item"><a class="nav-link" href="themes.html">Themes</a></li>
+	        </ul>
+	    </div>
+    </nav>
+    <!-- End of Header Nav -->
+
+
+	<!-- =============================
+		Pomotion Section Start
+	=============================== -->
+	<section class="jumbotron bg-info text-white mt-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h1 class="display-4">Buttons</h1>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End of Pomotion Section -->
+
+
+
+
+		<!-- =============================
+			 Buttons Section
+		============================== -->
+	<section class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h5 class="item-heading-xl">Example</h5>
+				<div class="gutter">
+					<button type="button" class="btn btn-primary">Primary</button>
+					<button type="button" class="btn btn-secondary">Secondary</button>
+					<button type="button" class="btn btn-success">Success</button>
+					<button type="button" class="btn btn-danger">Danger</button>
+					<button type="button" class="btn btn-warning">Warning</button>
+					<button type="button" class="btn btn-info">Info</button>
+					<button type="button" class="btn btn-light">Light</button>
+					<button type="button" class="btn btn-dark">Dark</button>
+					<button type="button" class="btn btn-link">Link</button>
+
+					<div class="gutter-content">
+						<button type="button" class="btn btn-danger btn-sm btn-gutter" data-toggle="modal" data-target="#id-1"></button>
+						<!-- Modal -->
+						<div class="modal fade" id="id-1" tabindex="-1" role="dialog" aria-labelledby="label-id-1" aria-hidden="true">
+						  <div class="modal-dialog modal-lg" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h6 class="modal-title" id="label-id-1">Source Code</h6>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+							  <div class="modal-body">
+								<pre>
+<xmp>
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+<button type="button" class="btn btn-link">Link</button>
+</xmp>
+								</pre>
+							  </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- End of gutter -->
+				
+
+
+				<h5 class="item-heading-xl">Button tags</h5>
+				
+				<div class="gutter">
+					<a href="#" class="btn btn-info" role="button">Link</a>
+					<button class="btn btn-info" type="button">Button</button>
+					<input type="button" value="Input" class="btn btn-info">
+					<input type="submit" value="Submit" class="btn btn-info">
+					<input type="reset" value="Reset" class="btn btn-info">
+
+					<div class="gutter-content">
+						<button type="button" class="btn btn-danger btn-sm btn-gutter" data-toggle="modal" data-target="#id-2"></button>
+						<!-- Modal -->
+						<div class="modal fade" id="id-2" tabindex="-1" role="dialog" aria-labelledby="label-id-2" aria-hidden="true">
+						  <div class="modal-dialog modal-lg" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h6 class="modal-title" id="label-id-2">Source Code</h6>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+							  <div class="modal-body">
+								<pre>
+<xmp>
+<a href="#" class="btn btn-info" role="button">Link</a>
+<button class="btn btn-info" type="button">Button</button>
+<input type="button" value="Input" class="btn btn-info">
+<input type="submit" value="Submit" class="btn btn-info">
+<input type="reset" value="Reset" class="btn btn-info">
+</xmp>
+								</pre>
+							  </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- End of gutter -->
+
+
+				<h4 class="item-heading-xl">Outline buttons</h4>
+
+				<div class="gutter">
+					<button type="button" class="btn btn-outline-primary">primary</button>
+					<button type="button" class="btn btn-outline-secondary">secondary</button>
+					<button type="button" class="btn btn-outline-success">success</button>
+					<button type="button" class="btn btn-outline-danger">danger</button>
+					<button type="button" class="btn btn-outline-warning">warning</button>
+					<button type="button" class="btn btn-outline-info">info</button>
+					<button type="button" class="btn btn-outline-light">light</button>
+					<button type="button" class="btn btn-outline-dark">dark</button>
+					<div class="gutter-content">
+						<button type="button" class="btn btn-danger btn-sm btn-gutter" data-toggle="modal" data-target="#id-3"></button>
+						<!-- Modal -->
+						<div class="modal fade" id="id-3" tabindex="-1" role="dialog" aria-labelledby="label-id-3" aria-hidden="true">
+						  <div class="modal-dialog modal-lg" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h6 class="modal-title" id="label-id-3">Source Code</h6>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+							  <div class="modal-body">
+								<pre>
+<xmp>
+<button type="button" class="btn btn-outline-primary">primary</button>
+<button type="button" class="btn btn-outline-secondary">secondary</button>
+<button type="button" class="btn btn-outline-success">success</button>
+<button type="button" class="btn btn-outline-danger">danger</button>
+<button type="button" class="btn btn-outline-warning">warning</button>
+<button type="button" class="btn btn-outline-info">info</button>
+<button type="button" class="btn btn-outline-light">light</button>
+<button type="button" class="btn btn-outline-dark">dark</button>
+</xmp>
+								</pre>
+							  </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- End of gutter -->
+
+
+				<h4 class="item-heading-xl">Choose button size</h4>
+				
+				<div class="gutter">
+					<button type="button" class="btn btn-info btn-sm">small</button>
+					<button type="button" class="btn btn-info">Default</button>
+					<button type="button" class="btn btn-info btn-lg">Large</button>
+
+					<div class="gutter-content">
+						<button type="button" class="btn btn-danger btn-sm btn-gutter" data-toggle="modal" data-target="#id-4"></button>
+						<!-- Modal -->
+						<div class="modal fade" id="id-4" tabindex="-1" role="dialog" aria-labelledby="label-id-4" aria-hidden="true">
+						  <div class="modal-dialog modal-lg" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h6 class="modal-title" id="label-id-4">Source Code</h6>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+							  <div class="modal-body">
+								<pre>
+<xmp>
+<button type="button" class="btn btn-info btn-sm">small</button>
+<button type="button" class="btn btn-info">Default</button>
+<button type="button" class="btn btn-info btn-lg">Large</button>
+</xmp>
+								</pre>
+							  </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- End of gutter -->
+
+
+				<h4 class="item-heading-xl">Active state</h4>
+				
+				<div class="gutter">
+					<a href="#" class="btn btn-primary active" role="button" aria-pressed="true">Primary link</a>
+					<a href="#" class="btn btn-secondary active" role="button" aria-pressed="true">Link</a>
+					<div class="gutter-content">
+						<button type="button" class="btn btn-danger btn-sm btn-gutter" data-toggle="modal" data-target="#id-5"></button>
+						<!-- Modal -->
+						<div class="modal fade" id="id-5" tabindex="-1" role="dialog" aria-labelledby="label-id-5" aria-hidden="true">
+						  <div class="modal-dialog modal-lg" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h6 class="modal-title" id="label-id-5">Source Code</h6>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+							  <div class="modal-body">
+								<pre>
+<xmp>
+<a href="#" class="btn btn-primary active" role="button" aria-pressed="true">Primary link</a>
+<a href="#" class="btn btn-secondary active" role="button" aria-pressed="true">Link</a>
+</xmp>
+								</pre>
+							  </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- End of gutter -->
+
+				
+				<h4 class="item-heading-xl">Disabled state</h4>
+
+				<div class="gutter">
+					<button type="button" class="btn btn-lg btn-primary" disabled>Primary button</button>
+					<button type="button" class="btn btn-secondary btn-lg" disabled>Button</button>
+					<a href="#" class="btn btn-primary btn-lg disabled" role="button" aria-disabled="true">Primary link</a>
+					<a href="#" class="btn btn-secondary btn-lg disabled" role="button" aria-disabled="true">Link</a>
+					<div class="gutter-content">
+						<button type="button" class="btn btn-danger btn-sm btn-gutter" data-toggle="modal" data-target="#id-6"></button>
+						<!-- Modal -->
+						<div class="modal fade" id="id-6" tabindex="-1" role="dialog" aria-labelledby="label-id-6" aria-hidden="true">
+						  <div class="modal-dialog modal-lg" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h6 class="modal-title" id="label-id-6">Source Code</h6>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+							  <div class="modal-body">
+								<pre>
+<xmp>
+<button type="button" class="btn btn-lg btn-primary" disabled>Primary button</button>
+<button type="button" class="btn btn-secondary btn-lg" disabled>Button</button>
+<a href="#" class="btn btn-primary btn-lg disabled" role="button" aria-disabled="true">Primary link</a>
+<a href="#" class="btn btn-secondary btn-lg disabled" role="button" aria-disabled="true">Link</a>
+</xmp>
+								</pre>
+							  </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- End of gutter -->
+
+
+				<h4 class="item-heading-xl">Toggle states</h4>
+
+				<div class="gutter">
+					<button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+					  primary toggle
+					</button>
+					<button type="button" class="btn btn-secondary" data-toggle="button" aria-pressed="false" autocomplete="off">
+					  secondary toggle
+					</button>
+					<button type="button" class="btn btn-success" data-toggle="button" aria-pressed="false" autocomplete="off">
+					  success toggle
+					</button>
+					<button type="button" class="btn btn-danger" data-toggle="button" aria-pressed="false" autocomplete="off">
+					  danger toggle
+					</button>
+					<button type="button" class="btn btn-warning" data-toggle="button" aria-pressed="false" autocomplete="off">
+					  warning toggle
+					</button>
+					<button type="button" class="btn btn-info" data-toggle="button" aria-pressed="false" autocomplete="off">
+					  info toggle
+					</button>
+					<button type="button" class="btn btn-light" data-toggle="button" aria-pressed="false" autocomplete="off">
+					  light toggle
+					</button>
+					<button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" autocomplete="off">
+					  dark toggle
+					</button>
+
+					<div class="gutter-content">
+						<button type="button" class="btn btn-danger btn-sm btn-gutter" data-toggle="modal" data-target="#id-7"></button>
+						<!-- Modal -->
+						<div class="modal fade" id="id-7" tabindex="-1" role="dialog" aria-labelledby="label-id-7" aria-hidden="true">
+						  <div class="modal-dialog modal-lg" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h6 class="modal-title" id="label-id-7">Source Code</h6>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+							  <div class="modal-body">
+								<pre>
+<xmp>
+<button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+  primary toggle
+</button>
+<button type="button" class="btn btn-secondary" data-toggle="button" aria-pressed="false" autocomplete="off">
+  secondary toggle
+</button>
+<button type="button" class="btn btn-success" data-toggle="button" aria-pressed="false" autocomplete="off">
+  success toggle
+</button>
+<button type="button" class="btn btn-danger" data-toggle="button" aria-pressed="false" autocomplete="off">
+  danger toggle
+</button>
+<button type="button" class="btn btn-warning" data-toggle="button" aria-pressed="false" autocomplete="off">
+  warning toggle
+</button>
+<button type="button" class="btn btn-info" data-toggle="button" aria-pressed="false" autocomplete="off">
+  info toggle
+</button>
+<button type="button" class="btn btn-light" data-toggle="button" aria-pressed="false" autocomplete="off">
+  light toggle
+</button>
+<button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" autocomplete="off">
+  dark toggle
+</button>
+</xmp>
+								</pre>
+							  </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- End of gutter -->
+
+
+				<h4 class="item-heading-xl">Checkbox and radio buttons</h4>
+				<div class="gutter">
+					<div class="btn-group" data-toggle="buttons">
+						<label class="btn btn-secondary active">
+							<input type="checkbox" checked autocomplete="off"> Checkbox 1 (pre-checked)
+						</label>
+						<label class="btn btn-secondary">
+							<input type="checkbox" autocomplete="off"> Checkbox 2
+						</label>
+						<label class="btn btn-secondary">
+							<input type="checkbox" autocomplete="off"> Checkbox 3
+						</label>
+						<label class="btn btn-secondary">
+							<input type="checkbox" autocomplete="off"> Checkbox 4
+						</label>
+						<label class="btn btn-secondary">
+							<input type="checkbox" autocomplete="off"> Checkbox 5
+						</label>
+					</div>
+
+					<div class="gutter-content">
+						<button type="button" class="btn btn-danger btn-sm btn-gutter" data-toggle="modal" data-target="#id-8"></button>
+						<!-- Modal -->
+						<div class="modal fade" id="id-8" tabindex="-1" role="dialog" aria-labelledby="label-id-8" aria-hidden="true">
+						  <div class="modal-dialog modal-lg" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h6 class="modal-title" id="label-id-8">Source Code</h6>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+							  <div class="modal-body">
+								<pre>
+<xmp>
+<div class="btn-group" data-toggle="buttons">
+	<label class="btn btn-secondary active">
+		<input type="checkbox" checked autocomplete="off"> Checkbox 1 (pre-checked)
+	</label>
+	<label class="btn btn-secondary">
+		<input type="checkbox" autocomplete="off"> Checkbox 2
+	</label>
+	<label class="btn btn-secondary">
+		<input type="checkbox" autocomplete="off"> Checkbox 3
+	</label>
+	<label class="btn btn-secondary">
+		<input type="checkbox" autocomplete="off"> Checkbox 4
+	</label>
+	<label class="btn btn-secondary">
+		<input type="checkbox" autocomplete="off"> Checkbox 5
+	</label>
+</div>
+</xmp>
+								</pre>
+							  </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- End of gutter -->
+
+				<br>
+				<br>
+
+				<div class="gutter">
+					<div class="btn-group" data-toggle="buttons">
+						<label class="btn btn-secondary active">
+							<input type="radio" name="options" id="option1" autocomplete="off" checked> Radio 1 (Pre-selected)
+						</label>
+						<label class="btn btn-secondary">
+							<input type="radio" name="options" id="option2" autocomplete="off"> Radio 2
+						</label>
+						<label class="btn btn-secondary">
+							<input type="radio" name="options" id="option3" autocomplete="off"> Radio 3
+						</label>
+						<label class="btn btn-secondary">
+							<input type="radio" name="options" id="option3" autocomplete="off"> Radio 4
+						</label>
+						<label class="btn btn-secondary">
+							<input type="radio" name="options" id="option3" autocomplete="off"> Radio 5
+						</label>
+					</div>
+
+					<div class="gutter-content">
+						<button type="button" class="btn btn-danger btn-sm btn-gutter" data-toggle="modal" data-target="#id-9"></button>
+						<!-- Modal -->
+						<div class="modal fade" id="id-9" tabindex="-1" role="dialog" aria-labelledby="label-id-9" aria-hidden="true">
+						  <div class="modal-dialog modal-lg" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h6 class="modal-title" id="label-id-9">Source Code</h6>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+							  <div class="modal-body">
+								<pre>
+<xmp>
+<div class="btn-group" data-toggle="buttons">
+	<label class="btn btn-secondary active">
+		<input type="radio" name="options" id="option1" autocomplete="off" checked> Radio 1 (Pre-selected)
+	</label>
+	<label class="btn btn-secondary">
+		<input type="radio" name="options" id="option2" autocomplete="off"> Radio 2
+	</label>
+	<label class="btn btn-secondary">
+		<input type="radio" name="options" id="option3" autocomplete="off"> Radio 3
+	</label>
+	<label class="btn btn-secondary">
+		<input type="radio" name="options" id="option3" autocomplete="off"> Radio 4
+	</label>
+	<label class="btn btn-secondary">
+		<input type="radio" name="options" id="option3" autocomplete="off"> Radio 5
+	</label>
+</div>
+</xmp>
+								</pre>
+							  </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- End of gutter -->
+
+
+				<h4 class="item-heading-xl">Button group</h4>
+				
+
+				<div class="gutter">
+					<div class="btn-group" role="group" aria-label="Basic example">
+						<button type="button" class="btn btn-info">Left</button>
+					    <button type="button" class="btn btn-info">Middle</button>
+					    <button type="button" class="btn btn-info">Right</button>
+					</div>
+
+					<div class="gutter-content">
+						<button type="button" class="btn btn-danger btn-sm btn-gutter" data-toggle="modal" data-target="#id-10"></button>
+						<!-- Modal -->
+						<div class="modal fade" id="id-10" tabindex="-1" role="dialog" aria-labelledby="label-id-10" aria-hidden="true">
+						  <div class="modal-dialog modal-lg" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h6 class="modal-title" id="label-id-10">Source Code</h6>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+							  <div class="modal-body">
+								<pre>
+<xmp>
+<div class="btn-group" role="group" aria-label="Basic example">
+	<button type="button" class="btn btn-info">Left</button>
+    <button type="button" class="btn btn-info">Middle</button>
+    <button type="button" class="btn btn-info">Right</button>
+</div>
+</xmp>
+								</pre>
+							  </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- End of gutter -->
+
+
+				<h4 class="item-heading-xl">Button toolbar</h4>
+				<div class="gutter">
+					<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+						<div class="btn-group mr-2" role="group" aria-label="Frist group">
+							<button type="button" class="btn btn-info">1</button>
+							<button type="button" class="btn btn-info">2</button>
+							<button type="button" class="btn btn-info">3</button>
+							<button type="button" class="btn btn-info">4</button>
+							<button type="button" class="btn btn-info">5</button>
+						</div>
+
+						<div class="btn-group mr-2" role="group" aria-label="Frist group">
+							<button type="button" class="btn btn-success">1</button>
+							<button type="button" class="btn btn-success">2</button>
+							<button type="button" class="btn btn-success">3</button>
+							<button type="button" class="btn btn-success">4</button>
+							<button type="button" class="btn btn-success">5</button>
+						</div>
+
+						<div class="btn-group mr-2" role="group" aria-label="Second group">
+						    <button type="button" class="btn btn-danger">5</button>
+						    <button type="button" class="btn btn-danger">6</button>
+						    <button type="button" class="btn btn-danger">7</button>
+						</div>
+						<div class="btn-group" role="group" aria-label="Third group">
+						    <button type="button" class="btn btn-secondary">8</button>
+						</div>
+					</div>
+
+					<div class="gutter-content">
+						<button type="button" class="btn btn-danger btn-sm btn-gutter" data-toggle="modal" data-target="#id-12"></button>
+						<!-- Modal -->
+						<div class="modal fade" id="id-12" tabindex="-1" role="dialog" aria-labelledby="label-id-12" aria-hidden="true">
+						  <div class="modal-dialog modal-lg" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h6 class="modal-title" id="label-id-12">Source Code</h6>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+							  <div class="modal-body">
+								<pre>
+<xmp>
+<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+	<div class="btn-group mr-2" role="group" aria-label="Frist group">
+		<button type="button" class="btn btn-info">1</button>
+		<button type="button" class="btn btn-info">2</button>
+		<button type="button" class="btn btn-info">3</button>
+		<button type="button" class="btn btn-info">4</button>
+		<button type="button" class="btn btn-info">5</button>
+	</div>
+
+	<div class="btn-group mr-2" role="group" aria-label="Frist group">
+		<button type="button" class="btn btn-success">1</button>
+		<button type="button" class="btn btn-success">2</button>
+		<button type="button" class="btn btn-success">3</button>
+		<button type="button" class="btn btn-success">4</button>
+		<button type="button" class="btn btn-success">5</button>
+	</div>
+
+	<div class="btn-group mr-2" role="group" aria-label="Second group">
+	    <button type="button" class="btn btn-danger">5</button>
+	    <button type="button" class="btn btn-danger">6</button>
+	    <button type="button" class="btn btn-danger">7</button>
+	</div>
+	<div class="btn-group" role="group" aria-label="Third group">
+	    <button type="button" class="btn btn-secondary">8</button>
+	</div>
+</div>
+</xmp>
+								</pre>
+							  </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- End of gutter -->
+					
+				<br>
+
+				<div class="gutter">
+					<div class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
+						<div class="btn-group mr-2" role="group" aria-label="First group">
+						    <button type="button" class="btn btn-secondary">1</button>
+						    <button type="button" class="btn btn-secondary">2</button>
+						    <button type="button" class="btn btn-secondary">3</button>
+						    <button type="button" class="btn btn-secondary">4</button>
+						</div>
+						<div class="input-group">
+						    <span class="input-group-addon" id="btnGroupAddon">@</span>
+						    <input type="text" class="form-control" placeholder="Input group example" aria-label="Input group example" aria-describedby="btnGroupAddon">
+						</div>
+					</div>
+
+					<div class="gutter-content">
+						<button type="button" class="btn btn-danger btn-sm btn-gutter" data-toggle="modal" data-target="#id-13"></button>
+						<!-- Modal -->
+						<div class="modal fade" id="id-13" tabindex="-1" role="dialog" aria-labelledby="label-id-13" aria-hidden="true">
+						  <div class="modal-dialog modal-lg" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h6 class="modal-title" id="label-id-13">Source Code</h6>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+							  <div class="modal-body">
+								<pre>
+<xmp>
+<div class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
+	<div class="btn-group mr-2" role="group" aria-label="First group">
+	    <button type="button" class="btn btn-secondary">1</button>
+	    <button type="button" class="btn btn-secondary">2</button>
+	    <button type="button" class="btn btn-secondary">3</button>
+	    <button type="button" class="btn btn-secondary">4</button>
+	</div>
+	<div class="input-group">
+	    <span class="input-group-addon" id="btnGroupAddon">@</span>
+	    <input type="text" class="form-control" placeholder="Input group example" aria-label="Input group example" aria-describedby="btnGroupAddon">
+	</div>
+</div>
+</xmp>
+								</pre>
+							  </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- End of gutter -->
+				
+				<br>
+				
+				<div class="gutter">
+					<div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
+						<div class="btn-group" role="group" aria-label="First group">
+						    <button type="button" class="btn btn-secondary">1</button>
+						    <button type="button" class="btn btn-secondary">2</button>
+						    <button type="button" class="btn btn-secondary">3</button>
+						    <button type="button" class="btn btn-secondary">4</button>
+						</div>
+						<div class="input-group">
+						    <span class="input-group-addon" id="btnGroupAddon2">@</span>
+						    <input type="text" class="form-control" placeholder="Input group example" aria-label="Input group example" aria-describedby="btnGroupAddon2">
+						</div>
+					</div>
+
+					<div class="gutter-content">
+						<button type="button" class="btn btn-danger btn-sm btn-gutter" data-toggle="modal" data-target="#id-14"></button>
+						<!-- Modal -->
+						<div class="modal fade" id="id-14" tabindex="-1" role="dialog" aria-labelledby="label-id-14" aria-hidden="true">
+						  <div class="modal-dialog modal-lg" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h6 class="modal-title" id="label-id-14">Source Code</h6>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+							  <div class="modal-body">
+								<pre>
+<xmp>
+<div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
+	<div class="btn-group" role="group" aria-label="First group">
+	    <button type="button" class="btn btn-secondary">1</button>
+	    <button type="button" class="btn btn-secondary">2</button>
+	    <button type="button" class="btn btn-secondary">3</button>
+	    <button type="button" class="btn btn-secondary">4</button>
+	</div>
+	<div class="input-group">
+	    <span class="input-group-addon" id="btnGroupAddon2">@</span>
+	    <input type="text" class="form-control" placeholder="Input group example" aria-label="Input group example" aria-describedby="btnGroupAddon2">
+	</div>
+</div>
+</xmp>
+								</pre>
+							  </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- End of gutter -->
+
+
+				<h4 class="item-heading-xl">Button Group size</h4>
+				<div class="gutter">
+					<div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+						<button type="button" class="btn btn-info">Left</button>
+					    <button type="button" class="btn btn-info">Middle</button>
+					    <button type="button" class="btn btn-info">Right</button>
+					</div>
+
+					<br><br>
+
+					<div class="btn-group" role="group" aria-label="Basic example">
+						<button type="button" class="btn btn-info">Left</button>
+					    <button type="button" class="btn btn-info">Middle</button>
+					    <button type="button" class="btn btn-info">Right</button>
+					</div>
+
+					<br><br>
+
+					<div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+						<button type="button" class="btn btn-info">Left</button>
+					    <button type="button" class="btn btn-info">Middle</button>
+					    <button type="button" class="btn btn-info">Right</button>
+					</div>
+
+					<div class="gutter-content">
+						<button type="button" class="btn btn-danger btn-sm btn-gutter" data-toggle="modal" data-target="#id-15"></button>
+						<!-- Modal -->
+						<div class="modal fade" id="id-15" tabindex="-1" role="dialog" aria-labelledby="label-id-15" aria-hidden="true">
+						  <div class="modal-dialog modal-lg" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h6 class="modal-title" id="label-id-15">Source Code</h6>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+							  <div class="modal-body">
+								<pre>
+<xmp>
+<div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+	<button type="button" class="btn btn-info">Left</button>
+    <button type="button" class="btn btn-info">Middle</button>
+    <button type="button" class="btn btn-info">Right</button>
+</div>
+
+<br><br>
+
+<div class="btn-group" role="group" aria-label="Basic example">
+	<button type="button" class="btn btn-info">Left</button>
+    <button type="button" class="btn btn-info">Middle</button>
+    <button type="button" class="btn btn-info">Right</button>
+</div>
+
+<br><br>
+
+<div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+	<button type="button" class="btn btn-info">Left</button>
+    <button type="button" class="btn btn-info">Middle</button>
+    <button type="button" class="btn btn-info">Right</button>
+</div>
+</xmp>
+								</pre>
+							  </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- End of gutter -->
+
+
+				<h4 class="item-heading-xl">Button group Nesting</h4>
+				<div class="gutter">
+					<div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+						<button type="button" class="btn btn-secondary">1</button>
+						<button type="button" class="btn btn-secondary">2</button>
+						<div class="btn-group" role="group">
+							<button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Dropdown
+							</button>
+							<div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+								<a href="" class="dropdown-item">Dropdown link</a>
+								<a href="" class="dropdown-item">Dropdown link</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="gutter-content">
+						<button type="button" class="btn btn-danger btn-sm btn-gutter" data-toggle="modal" data-target="#id-16"></button>
+						<!-- Modal -->
+						<div class="modal fade" id="id-16" tabindex="-1" role="dialog" aria-labelledby="label-id-16" aria-hidden="true">
+						  <div class="modal-dialog modal-lg" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h6 class="modal-title" id="label-id-16">Source Code</h6>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+							  <div class="modal-body">
+								<pre>
+<xmp>
+<div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+	<button type="button" class="btn btn-secondary">1</button>
+	<button type="button" class="btn btn-secondary">2</button>
+	<div class="btn-group" role="group">
+		<button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			Dropdown
+		</button>
+		<div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+			<a href="" class="dropdown-item">Dropdown link</a>
+			<a href="" class="dropdown-item">Dropdown link</a>
+		</div>
+	</div>
+</div>
+</xmp>
+								</pre>
+							  </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- End of gutter -->
+
+
+				<h4 class="item-heading-xl">Vertical variation</h4>
+				<div class="gutter">
+					<div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+					    <button type="button" class="btn btn-secondary">Button</button>
+					    <button type="button" class="btn btn-secondary">Button</button>
+					    <button type="button" class="btn btn-secondary">Button</button>
+					    <button type="button" class="btn btn-secondary">Button</button>
+					    <button type="button" class="btn btn-secondary">Button</button>
+					    <button type="button" class="btn btn-secondary">Button</button>
+					</div>
+
+					<div class="gutter-content">
+						<button type="button" class="btn btn-danger btn-sm btn-gutter" data-toggle="modal" data-target="#id-17"></button>
+						<!-- Modal -->
+						<div class="modal fade" id="id-17" tabindex="-1" role="dialog" aria-labelledby="label-id-17" aria-hidden="true">
+						  <div class="modal-dialog modal-lg" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h6 class="modal-title" id="label-id-17">Source Code</h6>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+							  <div class="modal-body">
+								<pre>
+<xmp>
+<div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+    <button type="button" class="btn btn-secondary">Button</button>
+    <button type="button" class="btn btn-secondary">Button</button>
+    <button type="button" class="btn btn-secondary">Button</button>
+    <button type="button" class="btn btn-secondary">Button</button>
+    <button type="button" class="btn btn-secondary">Button</button>
+    <button type="button" class="btn btn-secondary">Button</button>
+</div>
+</xmp>
+								</pre>
+							  </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- End of gutter -->
+
+				<br><br>
+
+				<div class="gutter">
+					<div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+					    <button type="button" class="btn btn-secondary">Button</button>
+					    <button type="button" class="btn btn-secondary">Button</button>
+					    <div class="btn-group" role="group">
+						    <button id="btnGroupVerticalDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						        Dropdown
+						    </button>
+						    <div class="dropdown-menu" aria-labelledby="btnGroupVerticalDrop1" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
+						        <a class="dropdown-item" href="#">Dropdown link</a>
+						        <a class="dropdown-item" href="#">Dropdown link</a>
+						    </div>
+					    </div>
+					    <button type="button" class="btn btn-secondary">Button</button>
+					    <button type="button" class="btn btn-secondary">Button</button>
+					    <div class="btn-group" role="group">
+						    <button id="btnGroupVerticalDrop2" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						        Dropdown
+						    </button>
+						    <div class="dropdown-menu" aria-labelledby="btnGroupVerticalDrop2">
+						        <a class="dropdown-item" href="#">Dropdown link</a>
+						        <a class="dropdown-item" href="#">Dropdown link</a>
+						    </div>
+					    </div>
+					    <div class="btn-group" role="group">
+						    <button id="btnGroupVerticalDrop3" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						        Dropdown
+						    </button>
+						    <div class="dropdown-menu" aria-labelledby="btnGroupVerticalDrop3">
+						        <a class="dropdown-item" href="#">Dropdown link</a>
+						        <a class="dropdown-item" href="#">Dropdown link</a>
+						    </div>
+					    </div>
+					    <div class="btn-group" role="group">
+						    <button id="btnGroupVerticalDrop4" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						        Dropdown
+						    </button>
+						    <div class="dropdown-menu" aria-labelledby="btnGroupVerticalDrop4">
+						        <a class="dropdown-item" href="#">Dropdown link</a>
+						        <a class="dropdown-item" href="#">Dropdown link</a>
+						    </div>
+					    </div>
+					</div>
+					<!-- End of btn-group -->
+
+					<div class="gutter-content">
+						<button type="button" class="btn btn-danger btn-sm btn-gutter" data-toggle="modal" data-target="#id-18"></button>
+						<!-- Modal -->
+						<div class="modal fade" id="id-18" tabindex="-1" role="dialog" aria-labelledby="label-id-18" aria-hidden="true">
+						  <div class="modal-dialog modal-lg" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h6 class="modal-title" id="label-id-18">Source Code</h6>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+							  <div class="modal-body">
+								<pre>
+<xmp>
+<div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+    <button type="button" class="btn btn-secondary">Button</button>
+    <button type="button" class="btn btn-secondary">Button</button>
+    <div class="btn-group" role="group">
+	    <button id="btnGroupVerticalDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	        Dropdown
+	    </button>
+	    <div class="dropdown-menu" aria-labelledby="btnGroupVerticalDrop1" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
+	        <a class="dropdown-item" href="#">Dropdown link</a>
+	        <a class="dropdown-item" href="#">Dropdown link</a>
+	    </div>
+    </div>
+    <button type="button" class="btn btn-secondary">Button</button>
+    <button type="button" class="btn btn-secondary">Button</button>
+    <div class="btn-group" role="group">
+	    <button id="btnGroupVerticalDrop2" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	        Dropdown
+	    </button>
+	    <div class="dropdown-menu" aria-labelledby="btnGroupVerticalDrop2">
+	        <a class="dropdown-item" href="#">Dropdown link</a>
+	        <a class="dropdown-item" href="#">Dropdown link</a>
+	    </div>
+    </div>
+    <div class="btn-group" role="group">
+	    <button id="btnGroupVerticalDrop3" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	        Dropdown
+	    </button>
+	    <div class="dropdown-menu" aria-labelledby="btnGroupVerticalDrop3">
+	        <a class="dropdown-item" href="#">Dropdown link</a>
+	        <a class="dropdown-item" href="#">Dropdown link</a>
+	    </div>
+    </div>
+    <div class="btn-group" role="group">
+	    <button id="btnGroupVerticalDrop4" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	        Dropdown
+	    </button>
+	    <div class="dropdown-menu" aria-labelledby="btnGroupVerticalDrop4">
+	        <a class="dropdown-item" href="#">Dropdown link</a>
+	        <a class="dropdown-item" href="#">Dropdown link</a>
+	    </div>
+    </div>
+</div>
+<!-- End of btn-group -->
+</xmp>
+								</pre>
+							  </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- End of gutter -->
+			</div>
+
+
+
+			<div class="col-md-12">
+				<h3 class="item-heading-xl">Single button dropdowns</h3>
+				<div class="gutter">
+					<div class="dropdown">
+						<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    Dropdown button
+						</button>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						    <a class="dropdown-item" href="#">Action</a>
+						    <a class="dropdown-item" href="#">Another action</a>
+						    <a class="dropdown-item" href="#">Something else here</a>
+						</div>
+					</div>
+
+					<div class="gutter-content">
+						<button type="button" class="btn btn-danger btn-sm btn-gutter" data-toggle="modal" data-target="#id-19"></button>
+						<!-- Modal -->
+						<div class="modal fade" id="id-19" tabindex="-1" role="dialog" aria-labelledby="label-id-19" aria-hidden="true">
+						  <div class="modal-dialog modal-lg" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h6 class="modal-title" id="label-id-19">Source Code</h6>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+							  <div class="modal-body">
+								<pre>
+<xmp>
+<div class="dropdown">
+	<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	    Dropdown button
+	</button>
+	<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+	    <a class="dropdown-item" href="#">Action</a>
+	    <a class="dropdown-item" href="#">Another action</a>
+	    <a class="dropdown-item" href="#">Something else here</a>
+	</div>
+</div>
+</xmp>
+								</pre>
+							  </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- End of gutter -->
+
+				<br>
+
+				<div class="gutter">
+					<div class="dropdown show">
+						<a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    Dropdown link
+						</a>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+						    <a class="dropdown-item" href="#">Action</a>
+						    <a class="dropdown-item" href="#">Another action</a>
+						    <a class="dropdown-item" href="#">Something else here</a>
+						</div>
+					</div>
+
+					<div class="gutter-content">
+						<button type="button" class="btn btn-danger btn-sm btn-gutter" data-toggle="modal" data-target="#id-20"></button>
+						<!-- Modal -->
+						<div class="modal fade" id="id-20" tabindex="-1" role="dialog" aria-labelledby="label-id-20" aria-hidden="true">
+						  <div class="modal-dialog modal-lg" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h6 class="modal-title" id="label-id-20">Source Code</h6>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+							  <div class="modal-body">
+								<pre>
+<xmp>
+<div class="dropdown show">
+	<a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	    Dropdown link
+	</a>
+	<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+	    <a class="dropdown-item" href="#">Action</a>
+	    <a class="dropdown-item" href="#">Another action</a>
+	    <a class="dropdown-item" href="#">Something else here</a>
+	</div>
+</div>
+</xmp>
+								</pre>
+							  </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- End of gutter -->
+
+				<br>
+
+
+				<div class="gutter">
+					<div class="btn-group">
+					    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Primary</button>
+					    <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
+					      <a class="dropdown-item" href="#">Action</a>
+					      <a class="dropdown-item" href="#">Another action</a>
+					      <a class="dropdown-item" href="#">Something else here</a>
+					      <div class="dropdown-divider"></div>
+					      <a class="dropdown-item" href="#">Separated link</a>
+					    </div>
+					</div><!-- /btn-group -->
+
+					<div class="btn-group">
+					    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Secondary</button>
+					    <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
+					      <a class="dropdown-item" href="#">Action</a>
+					      <a class="dropdown-item" href="#">Another action</a>
+					      <a class="dropdown-item" href="#">Something else here</a>
+					      <div class="dropdown-divider"></div>
+					      <a class="dropdown-item" href="#">Separated link</a>
+					    </div>
+					</div><!-- /btn-group -->
+
+					<div class="btn-group">
+					    <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Success</button>
+					    <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
+					      <a class="dropdown-item" href="#">Action</a>
+					      <a class="dropdown-item" href="#">Another action</a>
+					      <a class="dropdown-item" href="#">Something else here</a>
+					      <div class="dropdown-divider"></div>
+					      <a class="dropdown-item" href="#">Separated link</a>
+					    </div>
+					</div><!-- /btn-group -->
+
+					<div class="btn-group">
+					    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Info</button>
+					    <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
+					      <a class="dropdown-item" href="#">Action</a>
+					      <a class="dropdown-item" href="#">Another action</a>
+					      <a class="dropdown-item" href="#">Something else here</a>
+					      <div class="dropdown-divider"></div>
+					      <a class="dropdown-item" href="#">Separated link</a>
+					    </div>
+					</div><!-- /btn-group -->
+
+					<div class="btn-group">
+					    <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Warning</button>
+					    <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
+					      <a class="dropdown-item" href="#">Action</a>
+					      <a class="dropdown-item" href="#">Another action</a>
+					      <a class="dropdown-item" href="#">Something else here</a>
+					      <div class="dropdown-divider"></div>
+					      <a class="dropdown-item" href="#">Separated link</a>
+					    </div>
+					</div><!-- /btn-group -->
+
+					<div class="btn-group">
+					    <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Danger</button>
+					    <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
+					      <a class="dropdown-item" href="#">Action</a>
+					      <a class="dropdown-item" href="#">Another action</a>
+					      <a class="dropdown-item" href="#">Something else here</a>
+					      <div class="dropdown-divider"></div>
+					      <a class="dropdown-item" href="#">Separated link</a>
+					    </div>
+					</div><!-- /btn-group -->
+
+					<div class="gutter-content">
+						<button type="button" class="btn btn-danger btn-sm btn-gutter" data-toggle="modal" data-target="#id-21"></button>
+						<!-- Modal -->
+						<div class="modal fade" id="id-21" tabindex="-1" role="dialog" aria-labelledby="label-id-21" aria-hidden="true">
+						  <div class="modal-dialog modal-lg" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h6 class="modal-title" id="label-id-21">Source Code</h6>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+							  <div class="modal-body">
+								<pre>
+<xmp>
+<div class="btn-group">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Primary</button>
+    <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+</div><!-- /btn-group -->
+
+<div class="btn-group">
+    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Secondary</button>
+    <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+</div><!-- /btn-group -->
+
+<div class="btn-group">
+    <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Success</button>
+    <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+</div><!-- /btn-group -->
+
+<div class="btn-group">
+    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Info</button>
+    <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+</div><!-- /btn-group -->
+
+<div class="btn-group">
+    <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Warning</button>
+    <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+</div><!-- /btn-group -->
+
+<div class="btn-group">
+    <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Danger</button>
+    <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(0px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+</div><!-- /btn-group -->
+</xmp>
+								</pre>
+							  </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- End of gutter -->
+			</div>
+
+			<div class="col-md-12">
+				<h3 class="item-heading-xl">Split button dropdowns</h3>
+				
+				<div class="gutter">
+					<div class="btn-group">
+					    <button type="button" class="btn btn-primary">Primary</button>
+					    <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					      <span class="sr-only">Toggle Dropdown</span>
+					    </button>
+					    <div class="dropdown-menu">
+					      <a class="dropdown-item" href="#">Action</a>
+					      <a class="dropdown-item" href="#">Another action</a>
+					      <a class="dropdown-item" href="#">Something else here</a>
+					      <div class="dropdown-divider"></div>
+					      <a class="dropdown-item" href="#">Separated link</a>
+					    </div>
+					</div><!-- /btn-group -->
+
+					<div class="btn-group">
+					    <button type="button" class="btn btn-secondary">Secondary</button>
+					    <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					      <span class="sr-only">Toggle Dropdown</span>
+					    </button>
+					    <div class="dropdown-menu">
+					      <a class="dropdown-item" href="#">Action</a>
+					      <a class="dropdown-item" href="#">Another action</a>
+					      <a class="dropdown-item" href="#">Something else here</a>
+					      <div class="dropdown-divider"></div>
+					      <a class="dropdown-item" href="#">Separated link</a>
+					    </div>
+					</div><!-- /btn-group -->
+
+					<div class="btn-group">
+					    <button type="button" class="btn btn-success">Success</button>
+					    <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					      <span class="sr-only">Toggle Dropdown</span>
+					    </button>
+					    <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(79px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
+					      <a class="dropdown-item" href="#">Action</a>
+					      <a class="dropdown-item" href="#">Another action</a>
+					      <a class="dropdown-item" href="#">Something else here</a>
+					      <div class="dropdown-divider"></div>
+					      <a class="dropdown-item" href="#">Separated link</a>
+					    </div>
+					</div><!-- /btn-group -->
+
+					<div class="btn-group">
+					    <button type="button" class="btn btn-info">Info</button>
+					    <button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					      <span class="sr-only">Toggle Dropdown</span>
+					    </button>
+					    <div class="dropdown-menu">
+					      <a class="dropdown-item" href="#">Action</a>
+					      <a class="dropdown-item" href="#">Another action</a>
+					      <a class="dropdown-item" href="#">Something else here</a>
+					      <div class="dropdown-divider"></div>
+					      <a class="dropdown-item" href="#">Separated link</a>
+					    </div>
+					</div><!-- /btn-group -->
+
+					<div class="btn-group">
+					    <button type="button" class="btn btn-warning">Warning</button>
+					    <button type="button" class="btn btn-warning dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					      <span class="sr-only">Toggle Dropdown</span>
+					    </button>
+					    <div class="dropdown-menu">
+					      <a class="dropdown-item" href="#">Action</a>
+					      <a class="dropdown-item" href="#">Another action</a>
+					      <a class="dropdown-item" href="#">Something else here</a>
+					      <div class="dropdown-divider"></div>
+					      <a class="dropdown-item" href="#">Separated link</a>
+					    </div>
+					</div><!-- /btn-group -->
+
+					<div class="btn-group">
+					    <button type="button" class="btn btn-danger">Danger</button>
+					    <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					      <span class="sr-only">Toggle Dropdown</span>
+					    </button>
+					    <div class="dropdown-menu">
+					      <a class="dropdown-item" href="#">Action</a>
+					      <a class="dropdown-item" href="#">Another action</a>
+					      <a class="dropdown-item" href="#">Something else here</a>
+					      <div class="dropdown-divider"></div>
+					      <a class="dropdown-item" href="#">Separated link</a>
+					    </div>
+					</div><!-- /btn-group -->
+
+					<div class="gutter-content">
+						<button type="button" class="btn btn-danger btn-sm btn-gutter" data-toggle="modal" data-target="#id-22"></button>
+						<!-- Modal -->
+						<div class="modal fade" id="id-22" tabindex="-1" role="dialog" aria-labelledby="label-id-22" aria-hidden="true">
+						  <div class="modal-dialog modal-lg" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h6 class="modal-title" id="label-id-22">Source Code</h6>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+							  <div class="modal-body">
+								<pre>
+<xmp>
+<div class="btn-group">
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <span class="sr-only">Toggle Dropdown</span>
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+</div><!-- /btn-group -->
+
+<div class="btn-group">
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <span class="sr-only">Toggle Dropdown</span>
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+</div><!-- /btn-group -->
+
+<div class="btn-group">
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <span class="sr-only">Toggle Dropdown</span>
+    </button>
+    <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(79px, 38px, 0px); top: 0px; left: 0px; will-change: transform;">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+</div><!-- /btn-group -->
+
+<div class="btn-group">
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <span class="sr-only">Toggle Dropdown</span>
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+</div><!-- /btn-group -->
+
+<div class="btn-group">
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-warning dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <span class="sr-only">Toggle Dropdown</span>
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+</div><!-- /btn-group -->
+
+<div class="btn-group">
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <span class="sr-only">Toggle Dropdown</span>
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+</div><!-- /btn-group -->
+</xmp>
+								</pre>
+							  </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- End of gutter -->
+			</div>
+
+			<div class="col-md-6">
+				<h3 class="item-heading-xl">Sizing</h3>
+
+				<div class="gutter">
+					<div class="btn-group">
+					    <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					        Large button
+					    </button>
+					    <div class="dropdown-menu">
+					        <a class="dropdown-item" href="#">Action</a>
+					        <a class="dropdown-item" href="#">Another action</a>
+					        <a class="dropdown-item" href="#">Something else here</a>
+					        <div class="dropdown-divider"></div>
+					        <a class="dropdown-item" href="#">Separated link</a>
+					    </div>
+				    </div>
+
+				    <div class="btn-group ml-2">
+					    <button type="button" class="btn btn-lg btn-secondary">Large split button</button>
+					    <button type="button" class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					        <span class="sr-only">Toggle Dropdown</span>
+					    </button>
+					    <div class="dropdown-menu">
+					        <a class="dropdown-item" href="#">Action</a>
+					        <a class="dropdown-item" href="#">Another action</a>
+					        <a class="dropdown-item" href="#">Something else here</a>
+					        <div class="dropdown-divider"></div>
+					        <a class="dropdown-item" href="#">Separated link</a>
+					    </div>
+				    </div>
+					
+					<div class="gutter-content">
+						<button type="button" class="btn btn-danger btn-sm btn-gutter" data-toggle="modal" data-target="#id-23"></button>
+						<!-- Modal -->
+						<div class="modal fade" id="id-23" tabindex="-1" role="dialog" aria-labelledby="label-id-23" aria-hidden="true">
+						  <div class="modal-dialog modal-lg" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h6 class="modal-title" id="label-id-23">Source Code</h6>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+							  <div class="modal-body">
+								<pre>
+<xmp>
+<div class="btn-group">
+    <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Large button
+    </button>
+    <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+</div>
+
+<div class="btn-group ml-2">
+    <button type="button" class="btn btn-lg btn-secondary">Large split button</button>
+    <button type="button" class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="sr-only">Toggle Dropdown</span>
+    </button>
+    <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+</div>
+</xmp>
+								</pre>
+							  </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- End of gutter -->
+				
+				<br><br>
+
+			    <div class="gutter">
+			    	<div class="btn-group">
+					    <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					        Small button
+					    </button>
+					    <div class="dropdown-menu">
+					        <a class="dropdown-item" href="#">Action</a>
+					        <a class="dropdown-item" href="#">Another action</a>
+					        <a class="dropdown-item" href="#">Something else here</a>
+					        <div class="dropdown-divider"></div>
+					        <a class="dropdown-item" href="#">Separated link</a>
+					    </div>
+				    </div>
+
+				    <div class="btn-group ml-2">
+					    <button type="button" class="btn btn-sm btn-secondary">Small split button</button>
+					    <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					        <span class="sr-only">Toggle Dropdown</span>
+					    </button>
+					    <div class="dropdown-menu">
+					        <a class="dropdown-item" href="#">Action</a>
+					        <a class="dropdown-item" href="#">Another action</a>
+					        <a class="dropdown-item" href="#">Something else here</a>
+					        <div class="dropdown-divider"></div>
+					        <a class="dropdown-item" href="#">Separated link</a>
+					    </div>
+				    </div>
+
+					<div class="gutter-content">
+						<button type="button" class="btn btn-danger btn-sm btn-gutter" data-toggle="modal" data-target="#id-24"></button>
+						<!-- Modal -->
+						<div class="modal fade" id="id-24" tabindex="-1" role="dialog" aria-labelledby="label-id-24" aria-hidden="true">
+						  <div class="modal-dialog modal-lg" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h6 class="modal-title" id="label-id-24">Source Code</h6>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+							  <div class="modal-body">
+								<pre>
+<xmp>
+<div class="btn-group">
+    <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Small button
+    </button>
+    <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+</div>
+
+<div class="btn-group ml-2">
+    <button type="button" class="btn btn-sm btn-secondary">Small split button</button>
+    <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="sr-only">Toggle Dropdown</span>
+    </button>
+    <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+</div>
+</xmp>
+								</pre>
+							  </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+			    </div>
+			    <!-- End of gutter -->
+			</div>
+
+			<div class="col-md-6">
+				<h3 class="item-heading-xl">Dropup variation</h3>
+
+				<div class="gutter">
+					<div class="btn-group dropup">
+					    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					      Dropup
+					    </button>
+					    <div class="dropdown-menu">
+					      <a class="dropdown-item" href="#">Action</a>
+					      <a class="dropdown-item" href="#">Another action</a>
+					      <a class="dropdown-item" href="#">Something else here</a>
+					      <a class="dropdown-item disabled" href="#">Disabled section</a>
+					      <div class="dropdown-divider"></div>
+					      <a class="dropdown-item" href="#">Separated link</a>
+					    </div>
+					</div>
+
+					<div class="btn-group dropup">
+					    <button type="button" class="btn btn-secondary">
+					      Split dropup
+					    </button>
+					    <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					      <span class="sr-only">Toggle Dropdown</span>
+					    </button>
+					    <div class="dropdown-menu">
+					      <a class="dropdown-item" href="#">Action</a>
+					      <a class="dropdown-item" href="#">Another action</a>
+					      <a class="dropdown-item" href="#">Something else here</a>
+					      <a class="dropdown-item disabled" href="#">Disabled section</a>
+					      <div class="dropdown-divider"></div>
+					      <a class="dropdown-item" href="#">Separated link</a>
+					    </div>
+					</div>
+
+					<div class="gutter-content">
+						<button type="button" class="btn btn-danger btn-sm btn-gutter" data-toggle="modal" data-target="#id-25"></button>
+						<!-- Modal -->
+						<div class="modal fade" id="id-25" tabindex="-1" role="dialog" aria-labelledby="label-id-25" aria-hidden="true">
+						  <div class="modal-dialog modal-lg" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h6 class="modal-title" id="label-id-25">Source Code</h6>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+							  <div class="modal-body">
+								<pre>
+<xmp>
+<div class="btn-group dropup">
+    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Dropup
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+      <a class="dropdown-item disabled" href="#">Disabled section</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+</div>
+
+<div class="btn-group dropup">
+    <button type="button" class="btn btn-secondary">
+      Split dropup
+    </button>
+    <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <span class="sr-only">Toggle Dropdown</span>
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+      <a class="dropdown-item disabled" href="#">Disabled section</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+</div>
+</xmp>
+								</pre>
+							  </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- End of gutter -->
+
+				<br>
+				<br>
+
+				<div class="gutter">
+					<div class="dropdown">
+						<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    Dropdown left
+						</button>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+							<h3 class="dropdown-header">Dropdown header</h3>
+						    <button class="dropdown-item" type="button">Action</button>
+						    <button class="dropdown-item" type="button">Another action</button>
+						    <div class="dropdown-divider"></div>
+						    <button class="dropdown-item" type="button">Something else here</button>
+						</div>
+					</div>
+
+					<div class="gutter-content">
+						<button type="button" class="btn btn-danger btn-sm btn-gutter" data-toggle="modal" data-target="#id-26"></button>
+						<!-- Modal -->
+						<div class="modal fade" id="id-26" tabindex="-1" role="dialog" aria-labelledby="label-id-26" aria-hidden="true">
+						  <div class="modal-dialog modal-lg" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h6 class="modal-title" id="label-id-26">Source Code</h6>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+							  <div class="modal-body">
+								<pre>
+<xmp>
+<div class="dropdown">
+	<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	    Dropdown left
+	</button>
+	<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+		<h3 class="dropdown-header">Dropdown header</h3>
+	    <button class="dropdown-item" type="button">Action</button>
+	    <button class="dropdown-item" type="button">Another action</button>
+	    <div class="dropdown-divider"></div>
+	    <button class="dropdown-item" type="button">Something else here</button>
+	</div>
+</div>
+</xmp>
+								</pre>
+							  </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- End of gutter -->
+
+				<br>
+
+				<div class="gutter">
+					<div class="dropdown">
+						<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    dropdown right
+						</button>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu3">
+							<h3 class="dropdown-header">Dropdown header</h3>
+						    <button class="dropdown-item" type="button">Action</button>
+						    <button class="dropdown-item" type="button">Another action</button>
+						    <div class="dropdown-divider"></div>
+						    <button class="dropdown-item" type="button">Something else here</button>
+						</div>
+					</div>
+
+					<div class="gutter-content">
+						<button type="button" class="btn btn-danger btn-sm btn-gutter" data-toggle="modal" data-target="#id-27"></button>
+						<!-- Modal -->
+						<div class="modal fade" id="id-27" tabindex="-1" role="dialog" aria-labelledby="label-id-27" aria-hidden="true">
+						  <div class="modal-dialog modal-lg" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h6 class="modal-title" id="label-id-27">Source Code</h6>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+							  <div class="modal-body">
+								<pre>
+<xmp>
+<div class="dropdown">
+	<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	    dropdown right
+	</button>
+	<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu3">
+		<h3 class="dropdown-header">Dropdown header</h3>
+	    <button class="dropdown-item" type="button">Action</button>
+	    <button class="dropdown-item" type="button">Another action</button>
+	    <div class="dropdown-divider"></div>
+	    <button class="dropdown-item" type="button">Something else here</button>
+	</div>
+</div>
+</xmp>
+								</pre>
+							  </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- End of gutter -->
+			</div>
+		</div>
+	</section>
+	<!-- End Buttons Section -->
+
+
+			
+
+	<!-- =============================
+		Footer Section Start
+	============================== -->
+	<footer class=" mt-5 p-3 text-muted bg-light">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<p class="mt-1 mb-0" style="font-size: 13px;">Copyright &copy; 2017 || All right reserved by <a href="http://themeshef.com" class="">ThemeShef</a></p>
+				</div>
+
+				<div class="col-sm-6 text-right">
+					<a href="https://github.com/themeshef" class="btn btn-sm btn-primary">Download from Github</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- End of Footer Section -->
+
+	
+	<!-- Input:js -->
+	<script src="assets/plugins/jquery/jquery-3.2.1.min.js"></script>
+	<script src="assets/plugins/bootstrap/js/popper.min.js"></script>
+	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/js/custom.js"></script>
+	<!-- EndInput -->
+</body>
+</html>

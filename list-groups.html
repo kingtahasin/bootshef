@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="corporate, creative, general, portfolio, photography, blog, e-commerce, shop, product, gallery, retina, responsive">
+    <meta name="author" content="Towhidul-Islam">
+	<title>Bootstrap 4</title>
+	
+	<!-- Favicon icon -->
+	<link rel="icon" type="image/png" href="assets/img/favicon.ico" />
+	
+	<!-- Input:CSS -->
+	<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="assets/css/style.css" />
+	<!-- EndInput -->
+  </head>
+<body>
+	<!-- =============================
+		Header Nav Section Start
+	=============================== -->
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    	<a class="navbar-brand" href="index.html">ThemeShef</a>
+	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header_nav" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="navbar-toggler-icon"></span>
+	    </button>
+
+	    <div class="collapse navbar-collapse" id="header_nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item"><a class="nav-link" href="alerts.html">Alerts</a></li>
+	          <li class="nav-item"><a class="nav-link" href="badges.html">badges</a></li>
+	          <li class="nav-item"><a class="nav-link" href="buttons.html">Buttons</a></li>
+	          <li class="nav-item"><a class="nav-link" href="cards.html">Cards</a></li>
+	          <li class="nav-item"><a class="nav-link" href="carousel.html">carousel</a></li>
+	          <li class="nav-item"><a class="nav-link" href="forms.html">Forms</a></li>
+	          <li class="nav-item"><a class="nav-link" href="jumboo.html">Jumboo</a></li>
+	          <li class="nav-item"><a class="nav-link active" href="list-groups.html">list groups</a></li>
+	          <li class="nav-item"><a class="nav-link" href="modals.html">Modals</a></li>
+	          <li class="nav-item"><a class="nav-link" href="navs.html">Navs</a></li>
+	          <li class="nav-item"><a class="nav-link" href="navbars.html">Navbars</a></li>
+          	  <li class="nav-item"><a class="nav-link" href="scrollspy.html">scrollspy</a></li>
+	          <li class="nav-item"><a class="nav-link" href="toggle.html">toggles</a></li>
+	          <li class="nav-item"><a class="nav-link" href="others.html">others</a></li>
+	          <li class="nav-item"><a class="nav-link" href="themes.html">Themes</a></li>
+	        </ul>
+	    </div>
+    </nav>
+    <!-- End of Header Nav -->
+
+
+	<!-- =============================
+		Pomotion Section Start
+	=============================== -->
+	<section class="jumbotron bg-info text-white mt-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h1 class="display-4">Alerts</h1>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End of Pomotion Section -->
+
+
+	<!-- =============================
+		List-groups Section Start
+	============================== -->
+	<section class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h2 class="item-heading">List group</h2>
+			</div>
+
+			<div class="col-sm-6">
+				<h3 class="item-heading-mini">Basic example</h3>
+				<div class="gutter">
+					<ul class="list-group">
+					  <li class="list-group-item active">Cras justo odio</li>
+					  <li class="list-group-item">Dapibus ac facilisis in</li>
+					  <li class="list-group-item disabled">Morbi leo risus</li>
+					  <li class="list-group-item">Porta ac consectetur ac</li>
+					  <li class="list-group-item">Vestibulum at eros</li>
+					</ul>
+					
+					<div class="gutter-content">
+						<button type="button" class="btn btn-danger btn-sm btn-gutter" data-toggle="modal" data-target="#id_1"></button>
+						<!-- Modal -->
+						<div class="modal fade" id="id_1" tabindex="-1" role="dialog" aria-labelledby="label-id_1" aria-hidden="true">
+						  <div class="modal-dialog modal-lg" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h6 class="modal-title" id="label-id_1">Source Code</h6>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+							  <div class="modal-body">
+								<pre>
+<xmp>
+<ul class="list-group">
+  <li class="list-group-item active">Cras justo odio</li>
+  <li class="list-group-item">Dapibus ac facilisis in</li>
+  <li class="list-group-item disabled">Morbi leo risus</li>
+  <li class="list-group-item">Porta ac consectetur ac</li>
+  <li class="list-group-item">Vestibulum at eros</li>
+</ul>
+</xmp>
+								</pre>
+							  </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- End of gutter -->
+			</div>
+
+			<div class="col-sm-6">
+				<h3 class="item-heading-mini">With Links </h3>
+				<div class="gutter">
+					<div class="list-group">
+					  <a href="#" class="list-group-item active">
+					    Cras justo odio
+					  </a>
+					  <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+					  <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+					  <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+					  <a href="#" class="list-group-item list-group-item-action disabled">Vestibulum at eros</a>
+					</div>
+					
+					<div class="gutter-content">
+						<button type="button" class="btn btn-danger btn-sm btn-gutter" data-toggle="modal" data-target="#id_2"></button>
+						<!-- Modal -->
+						<div class="modal fade" id="id_2" tabindex="-1" role="dialog" aria-labelledby="label-id_2" aria-hidden="true">
+						  <div class="modal-dialog modal-lg" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h6 class="modal-title" id="label-id_2">Source Code</h6>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+							  <div class="modal-body">
+								<pre>
+<xmp>
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    Cras justo odio
+  </a>
+  <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+  <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+  <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+  <a href="#" class="list-group-item list-group-item-action disabled">Vestibulum at eros</a>
+</div>
+</xmp>
+								</pre>
+							  </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- End of gutter -->
+			</div>
+
+			<div class="col-sm-6">
+				<h3 class="item-heading-mini mt-5">With buttons </h3>
+				<div class="gutter">
+					<div class="list-group">
+					  <button type="button" class="list-group-item list-group-item-action active">
+					    Cras justo odio
+					  </button>
+					  <button type="button" class="list-group-item list-group-item-action">Dapibus ac facilisis in</button>
+					  <button type="button" class="list-group-item list-group-item-action">Morbi leo risus</button>
+					  <button type="button" class="list-group-item list-group-item-action">Porta ac consectetur ac</button>
+					  <button type="button" class="list-group-item list-group-item-action" disabled>Vestibulum at eros</button>
+					</div>
+					
+					<div class="gutter-content">
+						<button type="button" class="btn btn-danger btn-sm btn-gutter" data-toggle="modal" data-target="#id_3"></button>
+						<!-- Modal -->
+						<div class="modal fade" id="id_3" tabindex="-1" role="dialog" aria-labelledby="label-id_3" aria-hidden="true">
+						  <div class="modal-dialog modal-lg" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h6 class="modal-title" id="label-id_3">Source Code</h6>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+							  <div class="modal-body">
+								<pre>
+<xmp>
+<div class="list-group">
+  <button type="button" class="list-group-item list-group-item-action active">
+    Cras justo odio
+  </button>
+  <button type="button" class="list-group-item list-group-item-action">Dapibus ac facilisis in</button>
+  <button type="button" class="list-group-item list-group-item-action">Morbi leo risus</button>
+  <button type="button" class="list-group-item list-group-item-action">Porta ac consectetur ac</button>
+  <button type="button" class="list-group-item list-group-item-action" disabled>Vestibulum at eros</button>
+</div>
+</xmp>
+								</pre>
+							  </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- End of gutter -->
+			</div>
+
+			<div class="col-sm-6">
+				<h3 class="item-heading-mini mt-5">With badges</h3>
+				<div class="gutter">
+					<ul class="list-group">
+					  <li class="list-group-item d-flex justify-content-between align-items-center">
+					    Cras justo odio
+					    <span class="badge badge-default badge-pill">14</span>
+					  </li>
+					  <li class="list-group-item d-flex justify-content-between align-items-center">
+					    Dapibus ac facilisis in
+					    <span class="badge badge-default badge-pill">2</span>
+					  </li>
+					  <li class="list-group-item d-flex justify-content-between align-items-center">
+					    Morbi leo risus
+					    <span class="badge badge-default badge-pill">1</span>
+					  </li>
+					</ul>
+					
+					<div class="gutter-content">
+						<button type="button" class="btn btn-danger btn-sm btn-gutter" data-toggle="modal" data-target="#id_4"></button>
+						<!-- Modal -->
+						<div class="modal fade" id="id_4" tabindex="-1" role="dialog" aria-labelledby="label-id_4" aria-hidden="true">
+						  <div class="modal-dialog modal-lg" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h6 class="modal-title" id="label-id_4">Source Code</h6>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+							  <div class="modal-body">
+								<pre>
+<xmp>
+<ul class="list-group">
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Cras justo odio
+    <span class="badge badge-default badge-pill">14</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Dapibus ac facilisis in
+    <span class="badge badge-default badge-pill">2</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Morbi leo risus
+    <span class="badge badge-default badge-pill">1</span>
+  </li>
+</ul>
+</xmp>
+								</pre>
+							  </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- End of gutter -->
+			</div>
+
+			<div class="col-sm-6">
+				<h3 class="item-heading-mini mt-5">Contextual classes</h3>
+				<div class="gutter">
+					<ul class="list-group">
+					  <li class="list-group-item">Dapibus ac facilisis in</li>
+					  <li class="list-group-item list-group-item-primary">This is a primary list group item</li>
+					  <li class="list-group-item list-group-item-secondary">This is a secondary list group item</li>
+					  <li class="list-group-item list-group-item-success">This is a success list group item</li>
+					  <li class="list-group-item list-group-item-danger">This is a danger list group item</li>
+					  <li class="list-group-item list-group-item-warning">This is a warning list group item</li>
+					  <li class="list-group-item list-group-item-info">This is a info list group item</li>
+					  <li class="list-group-item list-group-item-light">This is a light list group item</li>
+					  <li class="list-group-item list-group-item-dark">This is a dark list group item</li>
+					</ul>
+					
+					<div class="gutter-content">
+						<button type="button" class="btn btn-danger btn-sm btn-gutter" data-toggle="modal" data-target="#id_5"></button>
+						<!-- Modal -->
+						<div class="modal fade" id="id_5" tabindex="-1" role="dialog" aria-labelledby="label-id_5" aria-hidden="true">
+						  <div class="modal-dialog modal-lg" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h6 class="modal-title" id="label-id_5">Source Code</h6>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+							  <div class="modal-body">
+								<pre>
+<xmp>
+<ul class="list-group">
+  <li class="list-group-item">Dapibus ac facilisis in</li>
+  <li class="list-group-item list-group-item-primary">This is a primary list group item</li>
+  <li class="list-group-item list-group-item-secondary">This is a secondary list group item</li>
+  <li class="list-group-item list-group-item-success">This is a success list group item</li>
+  <li class="list-group-item list-group-item-danger">This is a danger list group item</li>
+  <li class="list-group-item list-group-item-warning">This is a warning list group item</li>
+  <li class="list-group-item list-group-item-info">This is a info list group item</li>
+  <li class="list-group-item list-group-item-light">This is a light list group item</li>
+  <li class="list-group-item list-group-item-dark">This is a dark list group item</li>
+</ul>
+</xmp>
+								</pre>
+							  </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- End of gutter -->
+			</div>
+
+			<div class="col-sm-6">
+				<h3 class="item-heading-mini mt-5">Contextual classes wit hover</h3>
+				<div class="gutter">
+					<div class="list-group">
+					  <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+					  <a href="#" class="list-group-item list-group-item-action list-group-item-primary">This is a primary list group item</a>
+					  <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">This is a secondary list group item</a>
+					  <a href="#" class="list-group-item list-group-item-action list-group-item-success">This is a success list group item</a>
+					  <a href="#" class="list-group-item list-group-item-action list-group-item-danger">This is a danger list group item</a>
+					  <a href="#" class="list-group-item list-group-item-action list-group-item-warning">This is a warning list group item</a>
+					  <a href="#" class="list-group-item list-group-item-action list-group-item-info">This is a info list group item</a>
+					  <a href="#" class="list-group-item list-group-item-action list-group-item-light">This is a light list group item</a>
+					  <a href="#" class="list-group-item list-group-item-action list-group-item-dark">This is a dark list group item</a>
+					</div>
+					
+					<div class="gutter-content">
+						<button type="button" class="btn btn-danger btn-sm btn-gutter" data-toggle="modal" data-target="#id_6"></button>
+						<!-- Modal -->
+						<div class="modal fade" id="id_6" tabindex="-1" role="dialog" aria-labelledby="label-id_6" aria-hidden="true">
+						  <div class="modal-dialog modal-lg" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h6 class="modal-title" id="label-id_6">Source Code</h6>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+							  <div class="modal-body">
+								<pre>
+<xmp>
+<div class="list-group">
+  <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-primary">This is a primary list group item</a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">This is a secondary list group item</a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-success">This is a success list group item</a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-danger">This is a danger list group item</a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-warning">This is a warning list group item</a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-info">This is a info list group item</a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-light">This is a light list group item</a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-dark">This is a dark list group item</a>
+</div>
+</xmp>
+								</pre>
+							  </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- End of gutter -->
+			</div>
+
+			<div class="col-sm-6">
+				<h3 class="item-heading-mini mt-5">Custom content</h3>
+				
+				<div class="gutter">
+					<div class="list-group">
+					  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+					    <div class="d-flex w-100 justify-content-between">
+					      <h5 class="mb-1">List group item heading</h5>
+					      <small>3 days ago</small>
+					    </div>
+					    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+					    <small>Donec id elit non mi porta.</small>
+					  </a>
+					  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+					    <div class="d-flex w-100 justify-content-between">
+					      <h5 class="mb-1">List group item heading</h5>
+					      <small class="text-muted">3 days ago</small>
+					    </div>
+					    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+					    <small class="text-muted">Donec id elit non mi porta.</small>
+					  </a>
+					  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+					    <div class="d-flex w-100 justify-content-between">
+					      <h5 class="mb-1">List group item heading</h5>
+					      <small class="text-muted">3 days ago</small>
+					    </div>
+					    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+					    <small class="text-muted">Donec id elit non mi porta.</small>
+					  </a>
+					</div>
+					<!-- End of list-group -->
+					
+					<div class="gutter-content">
+						<button type="button" class="btn btn-danger btn-sm btn-gutter" data-toggle="modal" data-target="#id_7"></button>
+						<!-- Modal -->
+						<div class="modal fade" id="id_7" tabindex="-1" role="dialog" aria-labelledby="label-id_7" aria-hidden="true">
+						  <div class="modal-dialog modal-lg" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h6 class="modal-title" id="label-id_7">Source Code</h6>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+							  <div class="modal-body">
+								<pre>
+<xmp>
+<div class="list-group">
+  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">List group item heading</h5>
+      <small>3 days ago</small>
+    </div>
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+    <small>Donec id elit non mi porta.</small>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">List group item heading</h5>
+      <small class="text-muted">3 days ago</small>
+    </div>
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+    <small class="text-muted">Donec id elit non mi porta.</small>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">List group item heading</h5>
+      <small class="text-muted">3 days ago</small>
+    </div>
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+    <small class="text-muted">Donec id elit non mi porta.</small>
+  </a>
+</div>
+<!-- End of list-group -->
+</xmp>
+								</pre>
+							  </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- End of gutter -->
+			</div>
+
+
+			<div class="col-sm-6">
+				<h3 class="item-heading-mini mt-5">JavaScript behavior</h3>
+				<div class="gutter">
+					<div class="row">
+					  <div class="col-4">
+					    <div class="list-group" id="list-tab" role="tablist">
+					      <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
+					      <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
+					      <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
+					      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
+					    </div>
+					  </div>
+					  <div class="col-8">
+					    <div class="tab-content" id="nav-tabContent">
+					      <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">Velit aute mollit ipsum ad dolor consectetur nulla officia culpa adipisicing exercitation fugiat tempor. </div>
+					      <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Voluptate deserunt sit sunt nisi aliqua fugiat proident ea ut.</div>
+					      <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">Mollit voluptate reprehenderit occaecat nisi ad non minim tempor sunt voluptate consectetur exercitation id ut nulla. Ea et fugiat aliquip nostrud sunt incididunt consectetur culpa aliquip eiusmod dolor.</div>
+					      <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">Anim ad Lorem aliqua in cupidatat nisi enim eu nostrud do aliquip veniam minim.</div>
+					    </div>
+					  </div>
+					</div>
+					<!-- End of row -->
+					
+					<div class="gutter-content">
+						<button type="button" class="btn btn-danger btn-sm btn-gutter" data-toggle="modal" data-target="#id_8"></button>
+						<!-- Modal -->
+						<div class="modal fade" id="id_8" tabindex="-1" role="dialog" aria-labelledby="label-id_8" aria-hidden="true">
+						  <div class="modal-dialog modal-lg" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h6 class="modal-title" id="label-id_8">Source Code</h6>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+							  <div class="modal-body">
+								<pre>
+<xmp>
+<div class="row">
+  <div class="col-4">
+    <div class="list-group" id="list-tab" role="tablist">
+      <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
+      <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
+      <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
+      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
+    </div>
+  </div>
+  <div class="col-8">
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">Velit aute mollit ipsum ad dolor consectetur nulla officia culpa adipisicing exercitation fugiat tempor. </div>
+      <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Voluptate deserunt sit sunt nisi aliqua fugiat proident ea ut.</div>
+      <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">Mollit voluptate reprehenderit occaecat nisi ad non minim tempor sunt voluptate consectetur exercitation id ut nulla. Ea et fugiat aliquip nostrud sunt incididunt consectetur culpa aliquip eiusmod dolor.</div>
+      <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">Anim ad Lorem aliqua in cupidatat nisi enim eu nostrud do aliquip veniam minim.</div>
+    </div>
+  </div>
+</div>
+<!-- End of row -->
+</xmp>
+								</pre>
+							  </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<!-- End of gutter -->
+			</div>
+		</div>
+	</section>
+	<!-- End List-groups section -->
+			
+
+
+	<!-- =============================
+		Footer Section Start
+	============================== -->
+	<footer class=" mt-5 p-3 text-muted bg-light">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<p class="mt-1 mb-0" style="font-size: 13px;">Copyright &copy; 2017 || All right reserved by <a href="http://themeshef.com" class="">ThemeShef</a></p>
+				</div>
+
+				<div class="col-sm-6 text-right">
+					<a href="https://github.com/themeshef" class="btn btn-sm btn-primary">Download from Github</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- End of Footer Section -->
+
+	
+	<!-- Input:js -->
+	<script src="assets/plugins/jquery/jquery-3.2.1.min.js"></script>
+	<script src="assets/plugins/bootstrap/js/popper.min.js"></script>
+	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/js/custom.js"></script>
+	<!-- EndInput -->
+</body>
+</html>
